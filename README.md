@@ -1,60 +1,52 @@
-# React + Vite
+# React + Vite Setup ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using **React** with **Vite**, providing a fast development experience with hot module replacement (HMR) and minimal configuration.
 
-Currently, two official plugins are available:
+We use the official Vite plugin:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `@vitejs/plugin-react-swc` for lightning-fast refresh and build times using the **SWC compiler**.
 
 
-  
 
   
-# Trip Planner App :earth_africa:	:mountain_snow:
 
-<div style="text-align: center;"> 
- 
-## :star: Building a Fullstack AI Trip Planner with React, Gemini AI, TailwindCSS & Firebase
- 
+  
+# 🧳 NextTrip.AI – AI Travel Planner 🌍
 
+## ⭐ Building a AI Trip Planner using React, Gemini AI, TailwindCSS & Firebase
 
-  ### Features: 
+### ✨ Features
 
-- Environment,Vite set up
-- Firebase, Database creation
-- Google Authentication
-- Generate Trip From Gemini AI
-- React Routing
-- Shadcn/ui
-- React Google Autocomplete
-- Display place photo using Google Photo API
-- Full responsiveness on all pages
-- Deploy App on Vercel
+- ⚡ React + Vite Environment Setup
+- 🔥 Firebase Integration with Firestore Database
+- 🔐 Google Authentication
+- 🤖 Generate Smart Travel Plans using Gemini AI
+- 🌐 React Router for Page Navigation
+- 🎨 Styled with TailwindCSS and Shadcn/UI
+- 📍 Google Places Autocomplete Integration
+- 🖼️ Display Place Images via Google Places Photo API
+- 📱 Fully Responsive on All Devices
+- 🚀 Deployed on Vercel
 
+---
 
-<br />
+## 📌 About the Project
 
+NextTrip.AI helps users plan customized trips using AI. Just enter your preferences, and it generates an optimized itinerary for your journey – smart, fast, and fun!
 
-## About the Project  :star2:
-![11](https://github.com/user-attachments/assets/81bdf33b-95b8-4ba0-b7f6-ab517ec54690)
-![3](https://github.com/user-attachments/assets/3d648acd-0c95-4d80-a257-4f1395edade7)
-![2](https://github.com/user-attachments/assets/35b35f6e-dbe2-4a3d-88a0-c14536688a4e)
-![1](https://github.com/user-attachments/assets/48151eb5-770f-4d8b-8149-c28a12a6fa39) 
+---
 
-<br />
+## 🔗 Live App
 
-# You can check app this link :point_down:
-https://full-stack-ai-trip-planner.vercel.app/
+👉 [Check out the live app here](https://next-trip-ai-psi.vercel.app/)
 
+---
 
-## Setup .env file
-### :key: Environment Variables
+## 🛠️ Setup `.env` File
 
+Add the following environment variables in a `.env` file:
 
-```js
-VITE_GOOGLE_PLACES_API_KEY
-VITE_GOOGLE_GEMINI_AI_API_KEY
-VITE_GOOGLE_AUTH_CLIENT_ID
-``` 
-
+```env
+VITE_GOOGLE_PLACES_API_KEY=your_google_places_api_key
+VITE_GOOGLE_GEMINI_AI_API_KEY=your_gemini_api_key
+VITE_GOOGLE_AUTH_CLIENT_ID=your_google_auth_client_id
