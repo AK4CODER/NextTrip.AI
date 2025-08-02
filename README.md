@@ -38,7 +38,7 @@ NextTrip.AI helps users plan customized trips using AI. Just enter your preferen
 
 ## 🔗 Live App
 
-👉 [Check out the live app here](https://next-trip-ai-psi.vercel.app/)
+👉  Visit NextTrip.AI Live on Vercel: [NextTrip.AI](https://next-trip-ai-psi.vercel.app/)
 
 ---
 
