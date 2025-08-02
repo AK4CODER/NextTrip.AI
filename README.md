@@ -1,10 +1,4 @@
-# React + Vite Setup ⚡
 
-This project is built using **React** with **Vite**, providing a fast development experience with hot module replacement (HMR) and minimal configuration.
-
-We use the official Vite plugin:
-
-- `@vitejs/plugin-react-swc` for lightning-fast refresh and build times using the **SWC compiler**.
 
 
 
